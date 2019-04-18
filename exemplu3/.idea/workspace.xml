@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9a42c5a-d6ed-4561-9aa1-8b6709e33d53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../New folder/demo/demo/src/main/java/com/example/demo/controller/BankAccountController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../New folder/demo/demo/src/main/java/com/example/demo/controller/CardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../New folder/demo/demo/src/main/java/com/example/demo/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../New folder/demo/demo/src/main/java/com/example/demo/model/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../New folder/demo/demo/src/main/java/com/example/demo/model/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../New folder/demo/demo/src/main/java/com/example/demo/repository/BankAccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../New folder/demo/demo/src/main/java/com/example/demo/repository/CardRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../New folder/demo/demo/src/main/java/com/example/demo/service/BankAccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../New folder/demo/demo/src/main/java/com/example/demo/service/CardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e9a42c5a-d6ed-4561-9aa1-8b6709e33d53" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/repositories/TransactionRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -152,7 +141,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,6 +210,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -276,7 +265,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25321338" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25642672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -372,7 +361,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/repositories/TransactionRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
