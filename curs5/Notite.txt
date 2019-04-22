@@ -1,0 +1,5 @@
+----  Curs 5  -----
+
+REST - o abstractizare, o comunicare intre entitati
+	- vine peste Http, Http are niste verbe: get, post, put, patch, delete
+@RestController = @Controller + @ResponseBody
