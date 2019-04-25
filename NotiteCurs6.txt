@@ -1,0 +1,9 @@
+----    Curs 6    -----
+
+JPA = java persistence api
+
+- layer de abstractizare a conexiunii la baza de date
+- CRUD repository - interfata
+- JPA repository - inplementeaza CRUD repository
+- JPQL = java persistence query language - de scris query - abstractizeaza obiecte ca si entitati -> le vede ca tabele in baza de date
+- 
