@@ -1,0 +1,5 @@
+-- Curs 7 --
+
+- Tranzactionabilitate - ACID principii
+- @transactional - Propagation levels
+		- Isolation level
