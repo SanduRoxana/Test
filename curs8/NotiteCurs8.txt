@@ -1,0 +1,21 @@
+---   Curs 8   ---
+
+- JMS - sistem de comunicare intre aplicatii
+- Java Messaging ... - Producer si Consumer
+- Avem sist de mesaje baza pe queue unde avem 1 producer si se pot conecta mai multi consumer (daca unul consuma un producer ceilalti nu mai au acces la el)
+cel pe baza de topic avem 1 singur producer si mai multi consumer de tip subscriber (doar se aboneaza la producer)
+
+- Download ActiveMQ : https://activemq.apache.org/components/classic/download/
+- Dependinta : https://mvnrepository.com/artifact/org.apache.activemq/activemq-broker/5.15.9
+
+- Pentru a porni ActiveMQ: Shift + Click dreapta -> Open PowerShell, apoi scriem bin\activemq start
+
+- Pentru a crea un test din Application: ALT + ENTER pe numele clasei Application, apoi Create Test -> ok, apoi in Test : ALT + INSERT -> Test Method
+
+- Pentru a vedea ActiveMQ: http://localhost:8161/admin/queues.jsp
+- Number of Pending Messages = nr de cate ori am rulat testul
+- By default, Jms este pe Queue -> Primul Consumer care ajunge la mesaj, acela il consuma; celelalte nu mai au acces la acel mesaj.
+
+- Suporta Text, Map, Object Messages
+
+Tema: Ne interesam de : kafka.apache.org
