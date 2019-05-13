@@ -1,0 +1,25 @@
+---  Curs 9  ---
+
+- NoSQL - non-relational database
+- 4 categorii - key value pair
+		- document oriented: MongoDB
+		- graph database
+		- column store
+- MongoDB
+
+- Pentru a omori un port: netstat -ano | findstr 8080 -> taskkil ...
+
+- Spring Boot creeaza o baza de date in Mongo numita Test
+
+- MongoDB Compass Community -> deschidem consola mongod si mongo.exe din program files ...
+
+In consola mongo.exe:
+- help
+- show dbs -> use test -> show collections -> db.movie.find() 
+
+- Microservicii - aplicatii diferite pentru servicii diferite
+- Fiecare microserviciu trebuie sa aiba o baza de date separata
+
+Tema: facem o aplicatie cu microservicii pentru movie
+- adaugam o parte de user, users recomandation 
+- putem sa facem si resttemplete
