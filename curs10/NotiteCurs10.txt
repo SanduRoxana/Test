@@ -1,0 +1,48 @@
+--- Curs 10 ---
+
+- Design Patterns = o metoda dovedita pt o problema cunoscuta
+
+- Singleton
+- Builder - pt a construi obiecte care au mai multe atribute
+- Factory Method - de a decupla abstractizarea
+- Observer - pt partea de Reactive (Angular - Front End)
+
+- Singleton - trebuie sa creeze transparent instanta, pe langa faptul ca este o singura instanta
+- doar el stie ca e doar instanta aia, celelalte care folosesc instanta nu stiu ca e doar una
+	1. Facem constructorul private
+
+Modificatorul synchronized - asigura un singur fir de executie activ la un moment dat
+
+Memoria - stack si heap
+Stack - nu este doar unul, pot fi mai multe 
+- este rezervat de executia unei metode
+- daca avem mai multe thread
+- este o stiva
+- tot ce declaram local se salveaza in layerul stivei
+- se aloca cand incepe o metoda si se dezaloca cand se termina o metoda
+Heap - este doar unul
+- are garbage collector - elimina instantele care nu mai sunt folosite, nu mai avem referinte
+- are mai multe zone 	- eden - in care se creeaza instantele (de la gradina raiului)
+			- surviver o - so - trec mai departe instantele daca nu sunt luate de garbage collecor
+			- surviver 1 - s1
+			- old generation - aici avem instantele de sngleton de obicei
+			- permanent generation - instantele nu sunt niciodata dezalocate - aici sunt instante a prototipului insusi
+					Dog.class - referinta a instantei care este in perm gen - sunt generate de ClassLoader - in genereal este doar un ClassLoader
+
+- Singleton in Spring nu este acelasi ca Singleton normal
+- In contextul de Spring, by default este singleton, dar putem sa creem oricate instante de acelasi tip
+- Instanta per identficator per context
+
+
+- Builder
+- o metoda nu trebuie sa aiba mai mult de 3 parametrii
+
+- Factory Method - decuplat complet pe cel care consuma o implementare de impl respectiva
+- toate clasele care folosesc contractul sunt transparente de acesta
+- decupleaza o implementare de abstractizare
+
+- Observer
+- ca 2 clase sa se cupleze, fara a exista un field al celeilalte clase => folosim abstractizarea => facem o lista de Listener
+- nu exista o relatie directa intre ele la nivelul codului => decuplare
+- actiunea de apel = eveniment => subiectul notifica ascultatorii sau observatorii
+- legatura se face prin contract
